@@ -12,7 +12,7 @@ Boost.Python（日本語訳）
 
    .. rubric:: 翻訳にあたって
 
-   * 本書は `Boost.Python ドキュメント <http://www.boost.org/libs/python/doc/>`_\の日本語訳です。原文書のバージョンは翻訳時の最新である 1.70.0 です。
+   * 本書は `Boost.Python ドキュメント <http://www.boost.org/libs/python/doc/>`_\の日本語訳です。原文書のバージョンは翻訳時の最新である 1.78.0 です。
    * 原文の誤りは修正したうえで翻訳しました。
    * 外部文書の表題等は英語のままにしてあります。
    * Python のサイトへのリンクは可能な限り日本語サイトへ変更しました。

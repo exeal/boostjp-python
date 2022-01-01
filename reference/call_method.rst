@@ -45,6 +45,8 @@ call_method
 
    #include <boost/python/module.hpp>
    #include <boost/python/class.hpp>
+   #include <boost/python/call_method.hpp>
+   #include <boost/python/def.hpp>
    #include <boost/utility.hpp>
    #include <cstring>
 
@@ -53,7 +55,7 @@ call_method
    {
     public:
       virtual char const* class_name() const { return "Base"; }
-      virtual ~Base();
+      virtual ~Base() {};
    };
 
    bool is_base(Base* b)
@@ -81,7 +83,7 @@ call_method
    {
        def("is_base", is_base);
 
-       class_<Base,Base_callback, noncopyable>("Base")
+       class_<Base,Base_callback, boost::noncopyable>("Base")
            .def("class_name", &Base_callback::Base_name)
            ;
 
