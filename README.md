@@ -2,9 +2,8 @@
 
 Personal Japanese translation of Boost.Python documentation.
 
-<dl>
-  <dt>Input</dt>
-  <dd>http://www.boost.org/libs/python/doc/</dd>
-  <dt>Output</dt>
-  <dd>http://boostjp-python.readthedocs.io/</dd>
-</dl>
+- Input
+  - http://www.boost.org/libs/python/doc/
+- Output
+  - http://boostjp-python.readthedocs.io/
+    [![Documentation Status](https://readthedocs.org/projects/boostjp-python/badge/?version=latest)](https://boostjp-python.readthedocs.io/ja/latest/?badge=latest)
